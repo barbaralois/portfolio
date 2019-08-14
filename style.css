@@ -60,7 +60,7 @@ main {
 
 .headline {
   text-align: center;
-  background-color: lightgray;
+  background-color: #9B9B9B;
 }
 
 h2 {
@@ -98,6 +98,7 @@ hr {
   flex-direction: column;
   align-items: center;
   padding-top: 10px;
+  background-color: #D1D1D1;
 }
 
 .portrait {
@@ -112,7 +113,7 @@ p {
 }
 
 .bio {
-  background-color:gainsboro;
+  background-color:#D1D1D1;
 }
 
 @media screen and (min-width: 500px) {
