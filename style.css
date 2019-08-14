@@ -6,10 +6,7 @@
 
 html {
   height: 100%;
-  background-color: lightgray;
-  //background-image: linear-gradient(#FDD6FF, #754180);
-  //background-size: 100%;
-  //background-repeat: no-repeat;
+  background-color: gray;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +14,6 @@ html {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   width: 90%;
   height: 85%;
@@ -64,10 +60,7 @@ main {
 
 .headline {
   text-align: center;
-}
-
-.name {
-  max-width: 100%;
+  background-color: lightgray;
 }
 
 h2 {
@@ -116,6 +109,10 @@ p {
   padding: 5px;
   text-align: justify;
   text-align-last: center;
+}
+
+.bio {
+  background-color:gainsboro;
 }
 
 @media screen and (min-width: 500px) {
