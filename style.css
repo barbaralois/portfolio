@@ -6,7 +6,9 @@
 
 html {
   height: 100%;
-  background-color: gray;
+  background-image: linear-gradient(#FDD6FF, #754180);
+  background-size: 100%;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,7 +16,8 @@ html {
 }
 
 body {
-  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
   width: 90%;
   height: 85%;
   display: flex;
@@ -33,7 +36,7 @@ body {
   display: inline-block;
   font-size: 16px;
   width: 25%;
-  padding: 10px;
+  padding: 10px 10px 15px 10px;
   text-align: center;
   border-radius: 10px;
   margin-bottom: -7px;
@@ -60,11 +63,14 @@ main {
 
 .headline {
   text-align: center;
-  background-color: #9B9B9B;
+}
+
+.name {
+  max-width: 100%;
 }
 
 h2 {
-  font-size: 1.4em;
+  font-size: 1.3em;
   font-weight: 600;
   padding: 2px;
   text-align: center;
@@ -98,7 +104,6 @@ hr {
   flex-direction: column;
   align-items: center;
   padding-top: 10px;
-  background-color: #D1D1D1;
 }
 
 .portrait {
@@ -107,13 +112,10 @@ hr {
 }
 
 p {
-  padding: 5px;
+  padding: 8px;
   text-align: justify;
   text-align-last: center;
-}
-
-.bio {
-  background-color:#D1D1D1;
+  line-height: 1.4;
 }
 
 @media screen and (min-width: 500px) {
