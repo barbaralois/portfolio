@@ -114,14 +114,14 @@ hr {
 
 p {
   padding: 8px;
-  text-align: justify;
-  text-align-last: center;
   line-height: 1.4;
+  text-align: center;
 }
 
-.contact-link {
-  text-decoration: underline;
-  color: black;
+.offsite-link {
+  text-decoration: none;
+  font-weight: 500;
+  color: #754180;
 }
 
 @media screen and (min-width: 500px) {
